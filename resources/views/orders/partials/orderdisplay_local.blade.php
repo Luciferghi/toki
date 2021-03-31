@@ -2,7 +2,7 @@
     <tr>
         <th scope="col">{{ __('ID') }}</th>
         @if(auth()->user()->hasRole('admin'))
-            <th scope="col">{{ __('Restaurant') }}</th>
+            <th scope="col">{{ __(Vendor) }}</th>
         @endif
         <th class="table-web" scope="col">{{ __('Created') }}</th>
         <th class="table-web" scope="col">{{ __('Table / Method') }}</th>
@@ -16,7 +16,7 @@
 @foreach($orders as $order)
 <tr>
     <td>
-        
+
         <a class="btn badge badge-success badge-pill" href="{{ route('orders.show',$order->id )}}">#{{ $order->id }}</a>
     </td>
     @hasrole('admin|driver')

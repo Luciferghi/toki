@@ -33,7 +33,7 @@
         @endif
         <li class="nav-item">
             <a class="nav-link" href="{{ route('admin.restaurants.index') }}">
-                <i class="ni ni-shop text-info"></i> {{ __('Restaurants') }}
+                <i class="ni ni-shop text-info"></i> {{ __('Vendors') }}
             </a>
         </li>
         @if(config('app.isft'))
@@ -69,7 +69,7 @@
             </a>
         </li>
         @endif
-        
+
         @if(config('settings.app_dev'))
         <li class="nav-item">
             <a class="nav-link" href="{{ route('admin.restaurant.banners.index') }}">

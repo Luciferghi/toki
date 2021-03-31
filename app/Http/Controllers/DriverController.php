@@ -98,9 +98,8 @@ class DriverController extends Controller
         $driver->email = strip_tags($request->email_driver);
         $driver->phone = strip_tags($request->phone_driver);
         $driver->api_token = Str::random(80);
-        $password = 'password';
         //$driver->password =  Hash::make(str_random(10));
-        $driver->password = Hash::make($password);
+        $driver->password = Hash::make('password');
         $driver->save();
 
         //Assign role

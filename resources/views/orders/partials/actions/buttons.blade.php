@@ -3,7 +3,7 @@
 $lastStatusAlisas=$order->status->pluck('alias')->last();
 ?>
 <div class="card-footer py-4">
-    <h6 class="heading-small text-muted mb-4">{{ __('Actions') }}</h6   >
+    <h6 class="heading-small text-muted mb-4">{{ __('Actions') }}</h6>
     <nav class="justify-content-end" aria-label="...">
     @if(auth()->user()->hasRole('admin'))
         <script>

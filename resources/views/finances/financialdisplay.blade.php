@@ -2,7 +2,7 @@
     <tr>
         <th scope="col">{{ __('ID') }}</th>
         @hasrole('admin|driver')
-            <th scope="col">{{ __('Restaurant') }}</th>
+            <th scope="col">{{ __(Vendor) }}</th>
         @endif
         <th class="table-web" scope="col">{{ __('Created') }}</th>
         <th class="table-web" scope="col">{{ __('Method') }}</th>
@@ -13,17 +13,17 @@
         <th class="table-web" scope="col">{{ __('Net Price + VAT') }}</th>
         <th class="table-web" scope="col">{{ __('VAT') }}</th>
         <th class="table-web" scope="col">{{ __('Net Price') }}</th>
-        
-        
+
+
         <th class="table-web" scope="col">{{ __('Total Price') }}</th>
-        
+
     </tr>
 </thead>
 <tbody>
 @foreach($orders as $order)
 <tr>
     <td>
-        
+
         <a class="btn badge badge-success badge-pill" href="{{ route('orders.show',$order->id )}}">#{{ $order->id }}</a>
     </td>
     @hasrole('admin|driver')
@@ -50,7 +50,7 @@
         @endif
 
     </td>
-    
+
     <td class="table-web">
         @money( $order->fee_value+$order->static_fee, config('settings.cashier_currency'),config('settings.do_convertion'))
     </td>
@@ -70,15 +70,15 @@
         @money( $order->order_price-($order->fee_value+$order->static_fee)-$order->vatvalue, config('settings.cashier_currency'),config('settings.do_convertion'))
     </td>
 
-    
-   
+
+
     <td class="table-web">
         @money( $order->order_price+$order->delivery_price, config('settings.cashier_currency'),config('settings.do_convertion'))
     </td>
-    
-    
+
+
 </tr>
-   
+
 
 @endforeach
 </tbody>

@@ -22,12 +22,12 @@
 
     <li class="nav-item">
         <a class="nav-link" href="{{ route('admin.restaurants.edit',  auth()->user()->restorant->id) }}">
-            <i class="ni ni-shop text-info"></i> {{ __('Restaurant') }}
+            <i class="ni ni-shop text-info"></i> {{ __('Vendors') }}
         </a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{{ route('items.index') }}">
-            <i class="ni ni-collection text-pink"></i> {{ __('Menu') }}
+            <i class="ni ni-collection text-pink"></i> {{ __('Products') }}
         </a>
     </li>
 

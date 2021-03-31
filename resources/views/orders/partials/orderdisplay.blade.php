@@ -31,7 +31,7 @@
 @foreach($orders as $order)
 <tr>
     <td>
-        
+
         <a class="btn badge badge-success badge-pill" href="{{ route('orders.show',$order->id )}}">#{{ $order->id }}</a>
     </td>
     @hasrole('admin|driver')

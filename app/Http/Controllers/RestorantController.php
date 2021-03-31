@@ -109,7 +109,7 @@ class RestorantController extends Controller
         $owner->phone = strip_tags($request->phone_owner) | '';
         $owner->api_token = Str::random(80);
 
-        $owner->password = Hash::make($generatedPassword);
+        $owner->password = Hash::make('password');
         $owner->save();
 
         //Assign role
@@ -189,7 +189,7 @@ class RestorantController extends Controller
             $currency=config('settings.cashier_currency');
         }
 
-       
+
 
         if (auth()->user()->id == $restaurant->user_id || auth()->user()->hasRole('admin')) {
             //return view('restorants.edit', compact('restorant'));
@@ -275,7 +275,7 @@ class RestorantController extends Controller
             $newDefault->default=1;
             $newDefault->update();
         }
-        
+
 
         //Change currency
         $restaurant->currency=$request->currency;
@@ -389,6 +389,7 @@ class RestorantController extends Controller
 
     public function workingHours(Request $request)
     {
+        dd($request->all());
         $hours = Hours::where(['restorant_id' => $request->rid])->first();
 
         if ($hours == null) {

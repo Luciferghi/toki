@@ -1,0 +1,264 @@
+[2021-03-28 06:05:24] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:06:10] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:07:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:08:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:09:29] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:10:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:11:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:12:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:13:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:14:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:15:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-28 06:16:11] local.ERROR: Uncaught Error: Class "Auth0\Login\Auth0User" not found in C:\xampp8\htdocs\toki_main\app\Models\MyAuth0User.php:8
+Stack trace:
+#0 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp8\htdocs\toki_main\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp8\\htdoc...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\MyAu...')
+#3 Command line code(1): class_exists('App\\Models\\MyAu...')
+#4 [internal function]: {closure}('App\\Models\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"Auth0\\Login\\Auth0User\" not found in C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8
+Stack trace:
+#0 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(444): include()
+#1 C:\\xampp8\\htdocs\\toki_main\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\xampp8\\\\htdoc...')
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Models\\\\MyAu...')
+#3 Command line code(1): class_exists('App\\\\Models\\\\MyAu...')
+#4 [internal function]: {closure}('App\\\\Models\\\\MyAu...')
+#5 Command line code(1): array_filter(Array, Object(Closure))
+#6 {main}
+  thrown at C:\\xampp8\\htdocs\\toki_main\\app\\Models\\MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 

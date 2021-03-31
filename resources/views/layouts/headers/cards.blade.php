@@ -45,8 +45,8 @@
                             @if(auth()->user()->hasRole('admin'))
                                 <div class="row">
                                     <div class="col">
-                                        <h5 class="card-title text-uppercase text-muted mb-0">{{ __('Number of restaurants') }}</h5>
-                                        <span class="h2 font-weight-bold mb-0">{{ $countItems }} {{ __('restaurants') }}</span>
+                                        <h5 class="card-title text-uppercase text-muted mb-0">{{ __('Number of vendors') }}</h5>
+                                        <span class="h2 font-weight-bold mb-0">{{ $countItems }} {{ __('vendors') }}</span>
                                     </div>
                                     <div class="col-auto">
                                         <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
