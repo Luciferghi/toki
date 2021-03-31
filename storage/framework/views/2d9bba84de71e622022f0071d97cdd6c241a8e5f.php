@@ -89,12 +89,7 @@
     -->
 
 
-    <li class="nav-item">
-            <a class="nav-link" href="<?php echo e(route('share.menu')); ?>">
-                <i class="ni ni-send text-green"></i> <?php echo e(__('Share')); ?>
-
-            </a>
-    </li>
+    
 
 </ul>
 <?php /**PATH C:\xampp8\htdocs\toki\resources\views/layouts/navbars/menus/owner.blade.php ENDPATH**/ ?>

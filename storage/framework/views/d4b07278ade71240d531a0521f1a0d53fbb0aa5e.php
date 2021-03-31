@@ -1,3 +1,4 @@
+
 <?php $__env->startSection('admin_title'); ?>
     <?php echo e(__('Vendor Management')); ?>
 

@@ -10,7 +10,7 @@
 
 
         <?php echo $__env->yieldContent('title'); ?>
-        <title><?php echo e(config('app.name', 'FoodTiger')); ?></title>
+        <title><?php echo e(config('app.name', 'Toki')); ?></title>
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

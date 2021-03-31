@@ -428,7 +428,7 @@ class RestorantController extends Controller
         $hours->{'6_to'} = $request->{'6_to'} ?? null;
         $hours->update();
 
-        return redirect()->route('admin.restaurants.edit', ['id' => $request->rid])->withStatus(__('Working hours successfully updated!'));
+        return redirect()->route('admin.restaurants.edit', ['restaurant' => $request->rid])->withStatus(__('Working hours successfully updated!'));
     }
 
     public function showRegisterRestaurant()

@@ -1,0 +1,41 @@
+[33mcommit 792d96d1bbee2497db1c841b31234469d9744bd9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nitish Ghimire <nitish.ghimire1@gmail.com>
+Date:   Wed Mar 31 17:20:58 2021 +0800
+
+    success order page renamed
+
+[33mcommit 284a020b62a1ff674ad0e873fa088c07518413e3[m
+Author: Nitish Ghimire <nitish.ghimire1@gmail.com>
+Date:   Wed Mar 31 17:06:57 2021 +0800
+
+    changed the rests to the vednor in the edit page
+
+[33mcommit f13b7ba4e286b2b957954e0184f978f6c7245da1[m
+Author: Nitish Ghimire <nitish.ghimire1@gmail.com>
+Date:   Wed Mar 31 17:02:53 2021 +0800
+
+    fix
+
+[33mcommit 137ca07bea90b55482d32ea79c37b292d5bf09b1[m
+Author: Nitish Ghimire <nitish.ghimire1@gmail.com>
+Date:   Wed Mar 31 16:51:06 2021 +0800
+
+    sql file added
+
+[33mcommit b32b8213ac39011cd59b68ae942121c735bf0640[m
+Author: Nitish Ghimire <nitish.ghimire1@gmail.com>
+Date:   Wed Mar 31 16:32:11 2021 +0800
+
+    New update with the name changes and all
+
+[33mcommit cc9cd5703526d6a08728493860f8b823db3ea819[m
+Author: Nitish Ghimire <nitish.ghimire1@gmail.com>
+Date:   Wed Feb 24 16:07:16 2021 +0800
+
+    demo check
+
+[33mcommit 0a6165076f1096ee1872128b9876d9857ccbd79c[m
+Author: Luciferghi <nitish.ghimire1@gmail.com>
+Date:   Wed Feb 24 15:51:31 2021 +0800
+
+    Initial commit

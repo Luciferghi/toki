@@ -79,10 +79,10 @@
     -->
 
 
-    <li class="nav-item">
+    {{-- <li class="nav-item">
             <a class="nav-link" href="{{ route('share.menu') }}">
                 <i class="ni ni-send text-green"></i> {{ __('Share') }}
             </a>
-    </li>
+    </li> --}}
 
 </ul>

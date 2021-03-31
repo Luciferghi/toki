@@ -10,7 +10,7 @@
 
 
         @yield('title')
-        <title>{{ config('app.name', 'FoodTiger') }}</title>
+        <title>{{ config('app.name', 'Toki') }}</title>
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
