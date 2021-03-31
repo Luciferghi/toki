@@ -4,14 +4,14 @@
         @method('put')
         <input type="hidden" id="rid" value="{{ $restorant->id }}"/>
         @include('partials.fields',['fields'=>[
-            ['ftype'=>'input','name'=>"Restaurant Name",'id'=>"name",'placeholder'=>"Restaurant Name",'required'=>true,'value'=>$restorant->name],
-            ['ftype'=>'input','name'=>"Restaurant Description",'id'=>"description",'placeholder'=>"Restaurant description",'required'=>true,'value'=>$restorant->description],
-            ['ftype'=>'input','name'=>"Restaurant Address",'id'=>"address",'placeholder'=>"Restaurant description",'required'=>true,'value'=>$restorant->address],
-            ['ftype'=>'input','name'=>"Restaurant Phone",'id'=>"phone",'placeholder'=>"Restaurant phone",'required'=>true,'value'=>env('IS_WHATSAPP_ORDERING_MODE',false) ? $restorant->whatsapp_phone : $restorant->phone],
+            ['ftype'=>'input','name'=>"Vendor Name",'id'=>"name",'placeholder'=>"Vendor Name",'required'=>true,'value'=>$restorant->name],
+            ['ftype'=>'input','name'=>"Vendor Description",'id'=>"description",'placeholder'=>"Vendor description",'required'=>true,'value'=>$restorant->description],
+            ['ftype'=>'input','name'=>"Vendor Address",'id'=>"address",'placeholder'=>"Vendor description",'required'=>true,'value'=>$restorant->address],
+            ['ftype'=>'input','name'=>"Vendor Phone",'id'=>"phone",'placeholder'=>"Vendor phone",'required'=>true,'value'=>env('IS_WHATSAPP_ORDERING_MODE',false) ? $restorant->whatsapp_phone : $restorant->phone],
         ]])
         @if(config('settings.multi_city'))
             @include('partials.fields',['fields'=>[
-                ['ftype'=>'select','name'=>"Restaurant city",'id'=>"city_id",'data'=>$cities,'required'=>true,'value'=>$restorant->city_id],
+                ['ftype'=>'select','name'=>"Vendor city",'id'=>"city_id",'data'=>$cities,'required'=>true,'value'=>$restorant->city_id],
             ]])
         @endif
         @if(config('app.ordering'))
@@ -59,7 +59,7 @@
         @endif
         <br/>
         @if(config('app.isft'))
-        
+
         @include('partials.fields',['fields'=>[
             ['ftype'=>'bool','name'=>"Pickup",'id'=>"can_pickup",'value'=>$restorant->can_pickup == 1 ? "true" : "false"],
             ['ftype'=>'bool','name'=>"Delivery",'id'=>"can_deliver",'value'=>$restorant->can_deliver == 1 ? "true" : "false"],
@@ -68,13 +68,13 @@
         ]])
 
         @endif
-        
+
         <br/>
         <div class="row">
             <?php
                 $images=[
-                    ['name'=>'resto_logo','label'=>__('Restaurant Image'),'value'=>$restorant->logom,'style'=>'width: 295px; height: 200px;'],
-                    ['name'=>'resto_cover','label'=>__('Restaurant Cover Image'),'value'=>$restorant->coverm,'style'=>'width: 200px; height: 100px;']
+                    ['name'=>'resto_logo','label'=>__('Vendor Image'),'value'=>$restorant->logom,'style'=>'width: 295px; height: 200px;'],
+                    ['name'=>'resto_cover','label'=>__('Vendor Cover Image'),'value'=>$restorant->coverm,'style'=>'width: 200px; height: 100px;']
                 ]
             ?>
             @foreach ($images as $image)
