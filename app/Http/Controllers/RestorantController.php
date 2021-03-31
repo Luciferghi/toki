@@ -389,7 +389,7 @@ class RestorantController extends Controller
 
     public function workingHours(Request $request)
     {
-        dd($request->all());
+        // dd($request->all());
         $hours = Hours::where(['restorant_id' => $request->rid])->first();
 
         if ($hours == null) {
